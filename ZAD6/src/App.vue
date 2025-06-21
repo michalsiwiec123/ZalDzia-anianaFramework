@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import catImage from './assets/cat.jpg'; // <<-- import lokalnego obrazka
+import catImage from './assets/cat.jpg'; 
 
 export default {
   name: 'App',
   data() {
     return {
-      catImage, // dodajemy jako dane
+      catImage, 
       users: [
         { name: 'user1', value: 12 },
         { name: 'user2', value: 15 },
