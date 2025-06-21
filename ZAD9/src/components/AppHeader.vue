@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .app-header {
-  background-color: #3f51b5; /* Głęboki niebieski, zgadywany z nagłówka */
+  background-color: #3f51b5; 
   color: white;
   padding: 45px 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
@@ -31,7 +31,7 @@ h1 {
   font-size: 3.8em;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 700; /* Gruby font */
+  font-weight: 700; 
 }
 
 .tagline {
@@ -39,6 +39,6 @@ h1 {
   font-size: 1.4em;
   font-style: italic;
   opacity: 0.9;
-  font-weight: 300; /* Lżejszy font */
+  font-weight: 300; 
 }
 </style>
