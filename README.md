@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-Pobieranie Strzałek do zadania 6
+Pobieranie Strzałek do zadania 9
 ```
 npm install @fortawesome/fontawesome-free
 ```
