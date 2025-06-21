@@ -1,4 +1,4 @@
-App.vue DLA ZAD 4
+
 <template>
   <div id="app">
     <ShoppingList />
@@ -17,5 +17,5 @@ export default {
 </script>
 
 <style>
-/* Możesz dodać globalne style tutaj */
+
 </style>
