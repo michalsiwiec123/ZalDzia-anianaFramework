@@ -10,15 +10,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+Pobieranie Strzałek do zadania 6
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install @fortawesome/fontawesome-free
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
