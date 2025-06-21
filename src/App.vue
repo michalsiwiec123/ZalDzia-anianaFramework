@@ -1,30 +1,27 @@
-/* eslint-disable vue/multi-word-component-names */
 <template>
-  <div class="container">
-    <Header />
-    <div class="main">
-      <Content />
-      <Sidebar />
-    </div>
-    <Footer />
+  <div class="app">
+    <StateBlock />
+    <hr />
+    <StateBlock />
   </div>
 </template>
 
-<script setup>
-import Header from './components/AppHeader2.vue'
-import Sidebar from './components/AppSidebar.vue'
-import Content from './components/AppContent.vue'
-import Footer from './components/AppFooter.vue'
+<script>
+import StateBlock from './components/StateBlock.vue'
+
+export default {
+  components: { StateBlock }
+}
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
-.main {
-  display: flex;
-  flex: 1;
+
+hr {
+  margin: 40px 0;
+  border: 1px solid gray;
 }
 </style>
