@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .app-footer {
-  background-color: #3f51b5; /* Ten sam niebieski co w nagłówku */
+  background-color: #3f51b5; 
   color: white;
   padding: 50px 20px 20px;
   margin-top: 50px;
@@ -33,7 +33,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; /* Wyśrodkowanie w pionie */
+  align-items: center; 
   gap: 40px;
 }
 
@@ -46,7 +46,7 @@ export default {
 .footer-text-area h4 {
   font-size: 2.2em;
   margin-bottom: 20px;
-  color: #ffffff; /* Biały kolor dla tytułu */
+  color: #ffffff; 
   font-weight: 600;
 }
 
@@ -54,11 +54,11 @@ export default {
   font-size: 1.1em;
   line-height: 1.8;
   margin-bottom: 12px;
-  color: #e0e0e0; /* Jaśniejszy szary dla tekstu */
+  color: #e0e0e0; 
 }
 
 .footer-text-area a {
-  color: #ffeb3b; /* Żółty kolor linków, zgadywany */
+  color: #ffeb3b; 
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -70,16 +70,16 @@ export default {
 .footer-graphic-area {
   flex: 1;
   min-width: 300px;
-  display: flex; /* Użyj flexbox, aby wyśrodkować zawartość */
-  justify-content: flex-end; /* Wyrównaj do prawej */
+  display: flex; 
+  justify-content: flex-end; 
   align-items: center;
 }
 
 .abstract-shape {
-  background-color: #4CAF50; /* Zielony kolor, podobny do przycisków */
+  background-color: #4CAF50; 
   width: 200px;
   height: 200px;
-  border-radius: 50%; /* Tworzy koło */
+  border-radius: 50%; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@ export default {
   font-size: 0.9em;
 }
 
-/* Responsywność dla mniejszych ekranów */
+
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -116,8 +116,8 @@ export default {
     text-align: center;
   }
   .footer-graphic-area {
-    order: -1; /* Przenieś kształt na górę na małych ekranach */
-    justify-content: center; /* Wyśrodkuj na małych ekranach */
+    order: -1; 
+    justify-content: center; 
     margin-bottom: 30px;
   }
 }
