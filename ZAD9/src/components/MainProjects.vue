@@ -36,7 +36,7 @@ export default {
           title: "Projekt Iksde",
           description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.",
           tech: "Vue, JS, CSS, HTML",
-          link: "#" // Link placeholder
+          link: "#"
         },
         {
           id: 2,
@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 .main-projects-section {
-  background-color: #e8eaf6; /* Jaśniejszy fioletowo-niebieski, zgadywany z tła */
+  background-color: #e8eaf6; 
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -90,7 +90,7 @@ export default {
 }
 
 .main-projects-section h3 {
-  color: #3f51b5; /* Głęboki niebieski, zgadywany */
+  color: #3f51b5; 
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: 600;
@@ -103,27 +103,27 @@ export default {
   margin: 0 auto;
   max-width: 900px;
   position: relative;
-  /* Dodaj tło, aby przypominało "podłogę" dla karuzeli */
+  
   background-color: #ffffff;
-  padding: 30px 0; /* Padding wewnątrz kontenera karuzeli */
+  padding: 30px 0; 
   border-radius: 10px;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.05); /* Delikatny wewnętrzny cień */
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05); 
 }
 
 .carousel-content-wrapper {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  padding: 0 60px; /* Odstęp od strzałek */
+  padding: 0 60px; 
 }
 
 .carousel-arrow {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px; /* Mniejszy padding dla strzałki */
-  font-size: 3.5em; /* Duże strzałki */
-  color: #3f51b5; /* Kolor strzałek, zgadywany */
+  padding: 10px; 
+  font-size: 3.5em; 
+  color: #3f51b5; 
   transition: transform 0.2s ease, color 0.2s ease;
   position: absolute;
   top: 50%;
@@ -134,21 +134,21 @@ export default {
 
 .carousel-arrow:hover {
   transform: translateY(-50%) scale(1.1);
-  color: #007bff; /* Lekko inny kolor przy najechaniu */
+  color: #007bff; 
 }
 
 .left-arrow {
-  left: 0; /* Strzałka idealnie na krawędzi */
+  left: 0; 
 }
 
 .right-arrow {
-  right: 0; /* Strzałka idealnie na krawędzi */
+  right: 0; 
 }
 
 .cta-more-projects {
   font-style: italic;
   color: #555;
-  margin-top: 35px; /* Większy odstęp */
+  margin-top: 35px;
   font-size: 1.1em;
 }
 
