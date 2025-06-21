@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Merienda';
+    src: url('Merienda-Regular_0_wt.eot');
+    src: local('Merienda'), local('Merienda-Regular_0_wt'),
+        url('Merienda-Regular_0_wt.eot?#iefix') format('embedded-opentype'),
+        url('Merienda-Regular_0_wt.woff2') format('woff2'),
+        url('Merienda-Regular_0_wt.woff') format('woff'),
+        url('Merienda-Regular_0_wt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('Merienda-Bold.eot');
+    src: local('Merienda Bold'), local('Merienda-Bold'),
+        url('Merienda-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Merienda-Bold.woff2') format('woff2'),
+        url('Merienda-Bold.woff') format('woff'),
+        url('Merienda-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
