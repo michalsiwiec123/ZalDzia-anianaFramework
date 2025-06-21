@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 .app-main-content {
-  /* Style już w globalnym .app-main-container w App.vue */
+  
 }
 </style>
