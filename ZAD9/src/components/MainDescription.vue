@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .main-description-section {
-  background-color: #ffffff; /* Białe tło */
+  background-color: #ffffff; 
   padding: 40px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -23,7 +23,7 @@ export default {
 }
 
 .main-description-section h2 {
-  color: #3f51b5; /* Głęboki niebieski, zgadywany */
+  color: #3f51b5; 
   font-size: 2.8em;
   margin-bottom: 25px;
   font-weight: 600;
