@@ -33,14 +33,14 @@ export default {
   },
   data() {
     return {
-      currentView: 'home' // Domyślny widok to 'home'
+      currentView: 'home' 
     };
   }
 }
 </script>
 
 <style>
-/* Resetowanie podstawowych stylów */
+
 * {
   margin: 0;
   padding: 0;
@@ -48,36 +48,36 @@ export default {
 }
 
 body {
-  font-family: Arial, sans-serif; /* Typowa czcionka sans-serif */
+  font-family: Arial, sans-serif; 
   line-height: 1.6;
   color: #333;
-  background-color: #f7f7f7; /* Jasne, neutralne tło */
+  background-color: #f7f7f7; 
 }
 
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Aplikacja zajmuje całą wysokość widoku */
+  min-height: 100vh; 
 }
 
-/* --- Nawigacja --- */
+
 .main-nav {
   background-color: #ffffff;
   padding: 15px 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
-  margin-bottom: 30px; /* Większy odstęp od sekcji głównej */
+  margin-bottom: 30px; 
 }
 
 .main-nav a {
   font-weight: bold;
-  color: #666; /* Szary kolor dla nieaktywnych linków */
+  color: #666; 
   text-decoration: none;
   padding: 8px 15px;
   cursor: pointer;
   transition: color 0.3s ease, border-bottom 0.3s ease;
   font-size: 1.1em;
-  border-bottom: 2px solid transparent; /* Przezroczyste podkreślenie */
+  border-bottom: 2px solid transparent; 
 }
 
 .main-nav a:hover {
@@ -85,7 +85,7 @@ body {
 }
 
 .main-nav a.nav-active {
-  color: #4CAF50; /* Zgadywany zielony z obrazka */
+  color: #4CAF50; 
   border-bottom: 2px solid #4CAF50;
 }
 
@@ -94,11 +94,11 @@ body {
   margin: 0 5px;
 }
 
-/* --- Główny kontener na treść --- */
+
 .app-main-container {
-  flex-grow: 1; /* Pozwala głównej zawartości rozciągać się i spychać stopkę na dół */
-  max-width: 1000px; /* Maksymalna szerokość zawartości */
+  flex-grow: 1; 
+  max-width: 1000px; 
   margin: 0 auto;
-  padding: 0 20px; /* Padding po bokach */
+  padding: 0 20px; 
 }
 </style>
