@@ -18,7 +18,7 @@ export default {
     submitStudent() {
       if (this.studentName.trim()) {
         this.$emit('add-student', this.studentName.trim());
-        this.studentName = ''; // reset pola
+        this.studentName = ''; 
       }
     },
   },
