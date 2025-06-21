@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Zadania Vue</h1>
 
-    <!-- Zadanie 1: v-if -->
+    
     <section>
       <h2>Zadanie 1 – v-if</h2>
       <button @click="pokaz = !pokaz">
@@ -11,7 +11,7 @@
       <p v-if="pokaz">To jest dynamicznie wyświetlana informacja!</p>
     </section>
 
-    <!-- Zadanie 2: v-for -->
+   
     <section>
       <h2>Zadanie 2 – v-for (Uczniowie)</h2>
       <ul>
@@ -21,7 +21,7 @@
       </ul>
     </section>
 
-    <!-- Zadanie 3: computed + methods -->
+    
     <section>
       <h2>Zadanie 3 – Koszt telefonów (computed + methods)</h2>
       <ul>
