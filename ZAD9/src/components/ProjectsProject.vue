@@ -22,18 +22,18 @@ export default {
 <style scoped>
 .project-card {
   background-color: #ffffff;
-  border: 1px solid #e0e0e0; /* Delikatna ramka */
+  border: 1px solid #e0e0e0; 
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   width: 100%;
-  max-width: 600px; /* Maksymalna szerokość karty */
+  max-width: 600px; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Rozłożenie treści */
-  height: 350px; /* Stała wysokość dla lepszego wyrównania w karuzeli */
+  justify-content: space-between; 
+  height: 350px; 
 }
 
 .project-card:hover {
@@ -42,7 +42,7 @@ export default {
 }
 
 .project-card h4 {
-  color: #3f51b5; /* Niebieski kolor tytułu */
+  color: #3f51b5;
   font-size: 2.2em;
   margin-top: 0;
   margin-bottom: 15px;
@@ -54,7 +54,7 @@ export default {
   line-height: 1.7;
   margin-bottom: 20px;
   font-size: 1.05em;
-  flex-grow: 1; /* Pozwala opisowi na wypełnienie dostępnego miejsca */
+  flex-grow: 1; 
 }
 
 .project-card .technologies {
@@ -66,7 +66,7 @@ export default {
 
 .project-card .project-link {
   display: inline-block;
-  background-color: #4CAF50; /* Zielony kolor przycisku */
+  background-color: #4CAF50; 
   color: white;
   padding: 12px 25px;
   border-radius: 5px;
@@ -77,10 +77,10 @@ export default {
 }
 
 .project-card .project-link .fas {
-  margin-left: 8px; /* Odstęp między tekstem a ikoną */
+  margin-left: 8px; 
 }
 
 .project-card .project-link:hover {
-  background-color: #388E3C; /* Ciemniejszy zielony przy najechaniu */
+  background-color: #388E3C; 
 }
 </style>
